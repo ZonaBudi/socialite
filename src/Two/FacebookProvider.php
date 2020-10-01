@@ -18,14 +18,14 @@ class FacebookProvider extends AbstractProvider implements ProviderInterface
      *
      * @var string
      */
-    protected $version = 'v3.3';
+    protected $version = 'v8.0';
 
     /**
      * The user fields being requested.
      *
      * @var array
      */
-    protected $fields = ['name', 'email', 'gender', 'verified', 'link'];
+    protected $fields = ['name', 'email', 'gender', 'verified'];
 
     /**
      * The scopes being requested.
